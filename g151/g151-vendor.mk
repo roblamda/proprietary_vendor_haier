@@ -100,42 +100,232 @@ PRODUCT_COPY_FILES += \
     vendor/haier/g151/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/haier/g151/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/haier/g151/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_a3907.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_a3907.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_a3907_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_a3907_camcorder.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_a3907_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_a3907_camera.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_bu64297_q13v06k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64297_q13v06k.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_bu64297_q13v06k_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64297_q13v06k_camcorder.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_bu64297_q13v06k_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64297_q13v06k_camera.so \
     vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714.so \
-    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_13p1ba_h2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_13p1ba_h2x.so \
-    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_13p1ba_h2x_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_13p1ba_h2x_camcorder.so \
-    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_13p1ba_h2x_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_13p1ba_h2x_camera.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_13p1ba.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_13p1ba.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_13p1ba_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_13p1ba_camcorder.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_13p1ba_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_13p1ba_camera.so \
     vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_camcorder.so \
     vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_camera.so \
-    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_meituosi_h2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_meituosi_h2x.so \
-    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_meituosi_h2x_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_meituosi_h2x_camcorder.so \
-    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_meituosi_h2x_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_meituosi_h2x_camera.so \
-    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_sikao_h2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_sikao_h2x.so \
-    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_sikao_h2x_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_sikao_h2x_camcorder.so \
-    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_sikao_h2x_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_sikao_h2x_camera.so \
-    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9718s.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9718s.so \
-    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9718s_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9718s_camcorder.so \
-    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9718s_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9718s_camera.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_pc0fe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_pc0fe.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_pc0fe_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_pc0fe_camcorder.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_pc0fe_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_pc0fe_camera.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_q13n04a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_q13n04a.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_q13n04a_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_q13n04a_camcorder.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_q13n04a_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_q13n04a_camera.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_q13v04b.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_q13v04b.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_q13v04b_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_q13v04b_camcorder.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9714_q13v04b_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_q13v04b_camera.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9716.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9716.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9716_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9716_camcorder.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9716_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9716_camera.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9814.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9814.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9814_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9814_camcorder.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_dw9814_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9814_camera.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_iu074.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_iu074.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_iu074_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_iu074_camcorder.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_iu074_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_iu074_camera.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_ov12830.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ov12830.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_ov12830_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ov12830_camcorder.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_ov12830_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ov12830_camera.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_ov8825.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ov8825.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_ov8825_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ov8825_camcorder.so \
+    vendor/haier/g151/proprietary/vendor/lib/libactuator_ov8825_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ov8825_camera.so \
     vendor/haier/g151/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz.so \
-    vendor/haier/g151/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_a11.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_a11.so \
-    vendor/haier/g151/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_a11_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_a11_camcorder.so \
-    vendor/haier/g151/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_a11_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_a11_camera.so \
     vendor/haier/g151/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_camcorder.so \
     vendor/haier/g151/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_camera.so \
-    vendor/haier/g151/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_h2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_h2x.so \
-    vendor/haier/g151/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_h2x_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_h2x_camcorder.so \
-    vendor/haier/g151/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_h2x_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_h2x_camera.so \
     vendor/haier/g151/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
     vendor/haier/g151/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/haier/g151/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
     vendor/haier/g151/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/haier/g151/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
     vendor/haier/g151/proprietary/vendor/lib/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a3xx.so \
+    vendor/haier/g151/proprietary/vendor/lib/libcamerahandler_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamerahandler_jni.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_S5K4E1_13P1BA_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_S5K4E1_13P1BA_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_S5K4E1_13P1BA_hfr_120fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_S5K4E1_13P1BA_hfr_60fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_S5K4E1_13P1BA_hfr_90fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_S5K4E1_13P1BA_liveshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_S5K4E1_13P1BA_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_S5K4E1_13P1BA_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_S5K4E1_13P1BA_video_hd.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_S5K4E1_13P1BA_zsl.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_SKUAA_ST_gc0339_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_SKUAA_ST_gc0339_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_SKUAA_ST_gc0339_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_SKUAB_ST_s5k4e1_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_gc5005_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_gc5005_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_gc5005_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_gc5005_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx132_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx132_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx132_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx132_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx132_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx132_liveshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx132_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx132_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx132_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx132_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx134_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx134_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx134_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx134_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx134_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx134_hfr_120.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx134_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx134_hfr_60.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx134_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx134_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx134_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx134_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx135_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx135_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx135_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_hfr_120.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx135_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_hfr_60.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx135_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_hfr_90.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx135_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_liveshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx135_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx135_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx135_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_video_hd.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx214_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx214_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx214_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx214_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx214_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx214_hfr_120fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx214_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx214_hfr_60fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx214_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx214_hfr_90fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx214_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx214_liveshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx214_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx214_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx214_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx214_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx214_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx214_snapshot_hdr.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx214_video_1080p.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx214_video_1080p.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_imx214_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx214_video_hdr.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov13850_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13850_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov13850_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13850_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov13850_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13850_hfr_120fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov13850_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13850_hfr_60fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov13850_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13850_hfr_90fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov13850_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13850_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13850_q13v06k_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13850_q13v06k_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13850_q13v06k_hfr_120fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13850_q13v06k_hfr_60fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13850_q13v06k_hfr_90fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13850_q13v06k_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13850_q13v06k_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov13850_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13850_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov16825_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16825_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov16825_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16825_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov16825_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16825_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov16825_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16825_snapshot.so \
     vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_5987fhq_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_common_v32.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_5987fhq_common_v32.so \
     vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_5987fhq_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_default_video_v32.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_5987fhq_default_video_v32.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_5987fhq_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_preview_v32.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_5987fhq_preview_v32.so \
     vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_5987fhq_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_snapshot_v32.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_5987fhq_snapshot_v32.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2680_cht852b_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_cht852b_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2680_cht852b_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_cht852b_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2680_cht852b_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_cht852b_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2680_cht852b_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_cht852b_snapshot.so \
     vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2680_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_common.so \
     vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2680_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2680_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_preview.so \
     vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2680_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2720_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2720_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2720_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2720_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2720_hfr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2720_hfr.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2720_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2720_liveshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2720_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2720_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov2720_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2720_zsl.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_oty5f03_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_oty5f03_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_oty5f03_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_oty5f03_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_oty5f03_zsl.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_p5v18g_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_p5v18g_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_default_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_p5v18g_default_video_hd.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_p5v18g_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_p5v18g_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_p5v18g_zsl.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_q5v22e_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_q5v22e_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_default_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_q5v22e_default_video_hd.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_q5v22e_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_q5v22e_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_q5v22e_zsl.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_sunrise_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_sunrise_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_sunrise_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_sunrise_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_sunrise_default_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_sunrise_default_video_hd.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_sunrise_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_sunrise_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5648_sunrise_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_sunrise_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_30010a3_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_30010a3_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_30010a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_30010a3_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_30010a3_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_30010a3_hfr_120fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_30010a3_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_30010a3_hfr_60fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_30010a3_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_30010a3_hfr_90fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_30010a3_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_30010a3_liveshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_30010a3_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_30010a3_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_30010a3_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_30010a3_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_30010a3_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_30010a3_video_hd.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_30010a3_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_30010a3_zsl.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_hfr_120fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_hfr_60fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_hfr_90fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_liveshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_video_hd.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_zsl.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_qc700_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_qc700_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_qc700_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_qc700_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_qc700_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_qc700_hfr_120fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_qc700_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_qc700_hfr_60fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_qc700_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_qc700_hfr_90fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_qc700_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_qc700_liveshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_qc700_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_qc700_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_qc700_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_qc700_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_qc700_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_qc700_video_hd.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov5670_qc700_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_qc700_zsl.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8825_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8825_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8825_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8825_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8825_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8825_hfr_120fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8825_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8825_hfr_60fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8825_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8825_hfr_90fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8825_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8825_liveshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8825_liveshot_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8825_liveshot_hd.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8825_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8825_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8825_preview_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8825_preview_hd.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8825_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8825_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8825_snapshot_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8825_snapshot_hd.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8825_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8825_video_hd.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8825_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8825_zsl.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8858_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8858_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8858_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8858_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8858_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8858_hfr_120fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8858_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8858_hfr_60fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8858_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8858_hfr_90fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8858_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8858_liveshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8858_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8858_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8858_q8v19w_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8858_q8v19w_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8858_q8v19w_hfr_120fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8858_q8v19w_hfr_60fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8858_q8v19w_hfr_90fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8858_q8v19w_liveshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8858_q8v19w_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8858_q8v19w_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_video_nonHD.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8858_q8v19w_video_nonHD.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8858_q8v19w_zsl.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_zsl_30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8858_q8v19w_zsl_30.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8858_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8858_snapshot.so \
     vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_q8v18a_common.so \
     vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_q8v18a_default_video.so \
     vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so \
@@ -144,22 +334,57 @@ PRODUCT_COPY_FILES += \
     vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_q8v18a_liveshot.so \
     vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_q8v18a_preview.so \
     vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_q8v18a_snapshot.so \
-    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_qtech_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_qtech_common.so \
-    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_qtech_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_qtech_default_video.so \
-    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_qtech_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_qtech_hfr_120fps.so \
-    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_qtech_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_qtech_hfr_60fps.so \
-    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_qtech_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_qtech_hfr_90fps.so \
-    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_qtech_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_qtech_liveshot.so \
-    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_qtech_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_qtech_preview.so \
-    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_qtech_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_qtech_snapshot.so \
-    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_sunny_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_common.so \
-    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_sunny_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_default_video.so \
-    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_sunny_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_hfr_120fps.so \
-    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_sunny_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_hfr_60fps.so \
-    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_sunny_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_hfr_90fps.so \
-    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_sunny_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_liveshot.so \
-    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_sunny_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_preview.so \
-    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_sunny_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_q8v18a_video_hd.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_q8v18a_zsl.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov9724_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov9724_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov9724_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov9724_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov9724_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov9724_liveshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_ov9724_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov9724_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k3l1yx_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l1yx_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k3l1yx_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l1yx_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k3l1yx_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k3l1yx_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k3l1yx_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k3l1yx_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l1yx_liveshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k3l1yx_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l1yx_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k3l1yx_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l1yx_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k3l1yx_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l1yx_video_hd.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k3l1yx_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l1yx_zsl.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k5e2_byd_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e2_byd_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k5e2_byd_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e2_byd_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k5e2_byd_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e2_byd_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k5e2_byd_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e2_byd_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k5e2_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e2_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k5e2_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e2_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k5e2_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e2_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k5e2_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e2_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k5e2_sunrise_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e2_sunrise_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k5e2_sunrise_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e2_sunrise_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k5e2_sunrise_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e2_sunrise_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_s5k5e2_sunrise_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e2_sunrise_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_skuab_shinetech_gc0339_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_skuab_shinetech_gc0339_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_skuab_shinetech_gc0339_liveshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_skuab_shinetech_gc0339_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_skuab_shinetech_gc0339_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_skuab_shinetech_gc0339_zsl.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_skuf_ov12830_p12v01c_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_skuf_ov12830_p12v01c_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_skuf_ov12830_p12v01c_hfr_120fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_skuf_ov12830_p12v01c_hfr_60fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_skuf_ov12830_p12v01c_hfr_90fps.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_skuf_ov12830_p12v01c_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_skuf_ov12830_p12v01c_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_skuf_ov12830_p12v01c_video_hd.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_skuf_ov12830_p12v01c_zsl.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_skuf_ov5648_p5v23c_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_skuf_ov5648_p5v23c_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_sp2509_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sp2509_common.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_sp2509_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sp2509_default_video.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_sp2509_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sp2509_preview.so \
+    vendor/haier/g151/proprietary/vendor/lib/libchromatix_sp2509_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sp2509_snapshot.so \
     vendor/haier/g151/proprietary/vendor/lib/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneapiclient.so \
     vendor/haier/g151/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
     vendor/haier/g151/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
@@ -189,32 +414,76 @@ PRODUCT_COPY_FILES += \
     vendor/haier/g151/proprietary/vendor/lib/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-disp-apis.so \
     vendor/haier/g151/proprietary/vendor/lib/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qdcm.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
-    vendor/haier/g151/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_frame_algorithm.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera2_iface_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_iface_modules.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_imglib_modules.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_is.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera2_isp_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_isp_modules.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_pproc_modules.so \
-    vendor/haier/g151/proprietary/vendor/lib/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_q3a_core.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_sensor_modules.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_algorithm.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
-    vendor/haier/g151/proprietary/vendor/lib/libmmcamera2_vpe_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_vpe_module.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera2_wnr_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_wnr_module.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_S5K4E1_13P1BA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_S5K4E1_13P1BA.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_SKUAA_ST_gc0339.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_SKUAB_ST_s5k4e1.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_gc0310.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_gc0310.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_gc5005.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_gc5005.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera_hdr_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_lib.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_hi256.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hi256.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_imx132.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx132.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_imx134.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx134.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_imx135.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx135.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_imx214.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx214.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_mt9m114.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mt9m114.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov13850.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13850.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov13850_q13v06k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13850_q13v06k.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov16825.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov16825.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov2680.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2680.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov2680_5987fhq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2680_5987fhq.so \
-    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov2680_skuhf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2680_skuhf.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov2680_cht852b.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2680_cht852b.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov2720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2720.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov5645.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5645.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov5648_oty5f03.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5648_oty5f03.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov5648_p5v18g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5648_p5v18g.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov5648_q5v22e.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5648_q5v22e.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov5648_sunrise.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5648_sunrise.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov5670_30010a3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5670_30010a3.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov5670_q5v41b.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5670_q5v41b.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov5670_qc700.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5670_qc700.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov7695.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov7695.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov8825.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8825.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov8858.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8858.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov8858_q8v19w.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8858_q8v19w.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov8858_q8v19w_30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8858_q8v19w_30.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8865_q8v18a.so \
-    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
-    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_ov9724.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov9724.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_s5k3l1yx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l1yx.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_s5k5e2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k5e2.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_s5k5e2_byd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k5e2_byd.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_s5k5e2_huiye_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k5e2_huiye_eeprom.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_s5k5e2_sunrise.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k5e2_sunrise.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_skuab_shinetech_gc0339.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_skuab_shinetech_gc0339.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_skuf_ov12830_p12v01c.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_skuf_ov5648_p5v23c.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sonyimx135_eeprom.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_sp1628.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sp1628.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_sp2509.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sp2509.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_sunny_ov8858_q8v19w_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_ov8858_q8v19w_eeprom.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_p12v01m_eeprom.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_p5v23c_eeprom.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_sunny_q13v04b_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q13v04b_eeprom.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q13v06k_eeprom.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_sunny_q5v22e_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q5v22e_eeprom.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q5v41b_eeprom.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q8v18a_eeprom.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_sunrise_pc0fe_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunrise_pc0fe_eeprom.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning.so \
+    vendor/haier/g151/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_truly_cm7700_eeprom.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_wavelet_lib.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmipl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmipl.so \
     vendor/haier/g151/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
@@ -233,6 +502,7 @@ PRODUCT_COPY_FILES += \
     vendor/haier/g151/proprietary/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
     vendor/haier/g151/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
     vendor/haier/g151/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
+    vendor/haier/g151/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/haier/g151/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/haier/g151/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
     vendor/haier/g151/proprietary/vendor/lib/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcc.so \
